@@ -75,7 +75,7 @@ $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error 
 <label for='name' >Publication*  : </label><input type='text' name='pub'  style="height: 22px;font-size: 18px;"/><br>
 <label for='name' >Branch*       : </label><input type='text' name='brn'  style="height: 22px;font-size: 18px;"/><br>
 <label for='name' >ISBN No*      : </label><input type='text' name='no'  style="height: 22px;font-size: 18px;"/><br>
-<label for='name' >choose image  : </label><input type="file" name="fileToUpload" id="fileToUpload">
+<label for='name' >Choose Image  : </label><input type="file" name="fileToUpload" id="fileToUpload">
 <input type='submit' name='submit' value=""  style="border-style: none; background: url('images/add.jpg') no-repeat; width: 112px; height: 90px;float:right;"/>
 </form>
 </div>
@@ -93,7 +93,7 @@ $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error 
 <?php 
 	
 	
-$target_dir = "uploads/";
+$target_dir = "books/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
