@@ -107,7 +107,6 @@ if(!isset($_SESSION['user'])){
  
  
 <div id="footer">
-Copyrights(TM) 2014 | Team Ozil 11
 </div>
 </div>
 </body>
