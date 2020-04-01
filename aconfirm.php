@@ -20,7 +20,7 @@ $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error 
 
 $confirm_id = $_GET['con'];
 
-$query = "UPDATE  `library`.`issue` SET  `status` =  'YES' WHERE  id='$confirm_id'";
+$query = "UPDATE  `issue` SET  `status` =  'YES' WHERE  id='$confirm_id'";
 if(mysqli_query($connect,$query))
 	header("Location:astatus.php");
   
