@@ -21,7 +21,7 @@ if(!isset($_SESSION['user2'])){
 <div id="wrapper">
 <div id="header">
 <br>
-<a href="adminhomepage.php"><img src="images\sitelogo.png" alt="sitelogo"
+<a href="adminhomepage.php"><img src="images/sitelogo.png" alt="sitelogo"
   style="float:left;width:610px;height:120px;"></a>
 
  <div id="dropdown">
