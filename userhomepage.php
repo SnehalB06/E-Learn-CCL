@@ -67,17 +67,17 @@ $usernm = $_SESSION['name'];
 			<div id="slider_container_2">
 
 				<div id="SliderName_2" class="SliderName_2">
-					<img src="img/1.jpg" width="700" height="450" alt="Demo2 first" title="Demo2 first" usemap="#img1map" />
+					<img src="img/college.jpg" width="700" height="450" alt="Demo2 first" title="Demo2 first" usemap="#img1map" />
 					<map name="img1map">
 						<area href="#img1map-area1" shape="rect" coords="100,100,200,200" />
 						<area href="#img1map-area2" shape="rect" coords="300,100,400,200" />
 					</map>
 					<div class="SliderName_2Description"></div>
-					<img src="img/2.jpg" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
+					<img src="img/infra.jpg" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
 					<div class="SliderName_2Description"></div>
-					<img src="img/3.jpg" width="700" height="450" alt="Demo2 third" title="Demo2 third" />
+					<img src="img/lib1.jpg" width="700" height="450" alt="Demo2 third" title="Demo2 third" />
 					<div class="SliderName_2Description"></div>
-					<img src="img/4.jpg" width="700" height="450" alt="Demo2 fourth" title="Demo2 fourth" />
+					<img src="img/lib2.jpg" width="700" height="450" alt="Demo2 fourth" title="Demo2 fourth" />
 					<div class="SliderName_2Description"></div>
 				</div>
 				<div class="c"></div>
