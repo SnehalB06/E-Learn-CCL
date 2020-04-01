@@ -89,12 +89,14 @@ $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error 
 </body>
 </html>
 
+<?php 
    if(isset($_POST['submit'])){
     $name = $_POST['name'];
     $author = $_POST['author'];
 	$pub = $_POST['pub'];
 	$brn=$_POST['brn'];
 	$no = $_POST['no'];
+	
 	if($name==''){
 	echo "<script>alert('Please enter Book name!')</script>";
 	exit();
