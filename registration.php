@@ -65,7 +65,7 @@ p{
 </form>
 </div>
 <div id="footer">
-Copyright (TM) 2014 | Team Ozil 11
+<!--Copyright (TM) 2014 | Team Ozil 11-->
 </div>
 
 </body>
