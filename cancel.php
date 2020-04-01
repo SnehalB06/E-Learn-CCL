@@ -7,10 +7,10 @@ if(!isset($_SESSION['user'])){
 ?>
 
 <?php
-$hostname= 'localhost';
-$username= 'root';
-$password= '';
-$dbname= 'library';
+$hostname= 'zy4wtsaw3sjejnud.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$username= 'jm5yt2mqq91oohli';
+$password= 'nijmbv3wx5tx9yto';
+$dbname= 'a3vhvpnccog050y7';
 
 $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error Connecting");
 ?>
@@ -30,7 +30,7 @@ if($status=='YES'){
   header("Location:postalready.php");
   echo "You have taken book from library";
 }else{
-$que=mysqli_query($connect,"DELETE FROM `library`.`issue` WHERE `issue`.`id` = $del");
+$que=mysqli_query($connect,"DELETE FROM `issue` WHERE `issue`.`id` = $del");
 if($que){
 echo "Cancelled";
 header("Location:postcancel.php");
