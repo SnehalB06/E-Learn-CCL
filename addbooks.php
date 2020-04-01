@@ -75,6 +75,7 @@ $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error 
 <label for='name' >Publication*  : </label><input type='text' name='pub'  style="height: 22px;font-size: 18px;"/><br>
 <label for='name' >Branch*       : </label><input type='text' name='brn'  style="height: 22px;font-size: 18px;"/><br>
 <label for='name' >ISBN No*      : </label><input type='text' name='no'  style="height: 22px;font-size: 18px;"/><br>
+<input type="file" name="fileToUpload" id="fileToUpload">
 <input type='submit' name='submit' value=""  style="border-style: none; background: url('images/add.jpg') no-repeat; width: 112px; height: 90px;float:right;"/>
 </form>
 </div>
