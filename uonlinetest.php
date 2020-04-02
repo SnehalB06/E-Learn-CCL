@@ -70,16 +70,16 @@ if(!isset($_SESSION['user'])){
 <div id="down " style="background-color:white; color:black; padding:10px;margin-top:20px; width: 625px; height:180px">
 	<p ><font size='6px' color='#2266FF'><b>APTITUDE TEST<b></font></p>
 	<li><a href="http://www.indiabix.com/online-test/aptitude-test/" style="color: black; text-decoration: none">Indiabix.com</a></li>
-		<li><a href="http://www.practiceaptitudetests.com/" style="color: black; text-decoration: none">PracticeAptitudeTests.com</a></li>
-			<li><a href="http://www.aptitude-test.com/" style="color: black; text-decoration: none">Aptitude-Test.com</a></li>
+	<li><a href="http://www.practiceaptitudetests.com/" style="color: black; text-decoration: none">PracticeAptitudeTests.com</a></li>
+	<li><a href="http://www.aptitude-test.com/" style="color: black; text-decoration: none">Aptitude-Test.com</a></li>
 </div>
 
-<div id="down " style="background-color:white; color:black; padding:10px;margin-top:-200px; margin-left:670px; width: 625px; height:180px">
+<div style="background-color:white; color:black; padding:10px;margin-top:-200px; margin-left:670px; width: 625px; height:180px">
 	<p ><font size='6px' color='#2266FF'><b>GATE<b></font></p>
 	<li><a href="https://www.wiziq.com/tests/gate" style="color: black; text-decoration: none">Wiziq.com</a></li>
-		<li><a href="http://learnhub.com/practice-tests/gate" style="color: black; text-decoration: none">Learnhub.com</a></li>
-		    <li><a href="http://www.gate.onlinetestseries.in/free-downloads-previous-year-papers" style="color: black; text-decoration: none">Gate-onlinetestseries.in</a></li>
-			    <li><a href="http://www.ipractice.in/engineering-entrance-exam/gate" style="color: black; text-decoration: none">Ipractice.in</a></li>
+	<li><a href="http://learnhub.com/practice-tests/gate" style="color: black; text-decoration: none">Learnhub.com</a></li>
+	<li><a href="http://www.gate.onlinetestseries.in/free-downloads-previous-year-papers" style="color: black; text-decoration: none">Gate-onlinetestseries.in</a></li>
+	<li><a href="http://www.ipractice.in/engineering-entrance-exam/gate" style="color: black; text-decoration: none">Ipractice.in</a></li>
 </div>
 
 <div id="down " style="background-color:white; color:black; padding:10px;margin-top:20px; width: 625px; height:180px">
