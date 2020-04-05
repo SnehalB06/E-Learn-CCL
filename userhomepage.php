@@ -33,6 +33,14 @@ $usernm = $_SESSION['name'];
   
   <li><a href="userhomepage.php">HOME</a>
   </li>
+  <li><a href="#">MY ACTION</a>
+    <ul>
+      <li><a href="books.php">View Books</a></li>
+      <li><a href="issue.php">My Issue Status</a></li>
+      
+    </ul>
+  </li>
+	   
   <li><a href="#">STUDY RESOURCES</a>
     <ul>
       <li><a href="usyllabus.php">Syllabus</a></li>
