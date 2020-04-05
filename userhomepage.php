@@ -116,7 +116,7 @@ $usernm = $_SESSION['name'];
 
 			<!--<img src="cssmain\vit.jpg" alt="VIT" style="width:500px;height:150px;border:0">-->
 			<center><p ><font size="6px"><b>WELCOME, <?php echo $usernm;  ?></b></font></p><center>
-			<center><p ><font size="4px">Library Timings: 9 A.M TO 6 P.M</p><br></center>
+			
 		
 </div>
 <!--
