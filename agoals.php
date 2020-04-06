@@ -60,11 +60,11 @@ float:right;
   <li><a href="#">MY ACTION</a>
     <ul>
       <li><a href="abooks.php">Book Database</a></li>
-      <li><a href="addbooks.php">Add Book</a></li>
+      <li><a href="addbooks.php">Add Library Books</a></li>
       <li><a href="astatus.php">Issue Book</a></li>	
       <li><a href="areturnfine.php">Return Book</a></li>	  	  
 	  <li><a href="user.php">Member Database</a></li>
-      
+      <li><a href="auploadtry.php">Add E-books</a></li>
     </ul>
   </li>
   <!--
