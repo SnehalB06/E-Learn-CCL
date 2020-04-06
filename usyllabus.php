@@ -157,52 +157,6 @@ if(!isset($_SESSION['user'])){
 				</tr>
 				<tr>
 					<td style="font-size: 12px;">
-						<b>Bio-Medical Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/biomedical.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-					<td>
-						<a href="http://mu.ac.in/Bio-Medical%20Engg.%20iii-iv%20rev..pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Bio-Technology Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/biotechnology.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-					<td>
-						<a href="#" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Chemical Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/chemical.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/sem3_chem.pdf" style="color: blue; font-size: 12px;">Sem 3</a>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/sem4_chem.pdf" style="color: blue; font-size: 12px;">Sem 4</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Civil Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/civil.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/Civil%20Sem%20III.pdf" style="color: blue; font-size: 12px;">Sem 3</a>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/Civil%20Sem%20IV.pdf" style="color: blue; font-size: 12px;">Sem 4</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
 						<b>Computer Engineering</b>
 					</td>
 					<td>
@@ -273,40 +227,6 @@ if(!isset($_SESSION['user'])){
 						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/IT%20Sem%20IV.pdf" style="color: blue; font-size: 12px;">Sem 4</a>
 					</td>
 				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Mechanical Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/Mechanical_Engg.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/mechanical.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Printing & Packaging Technology</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/printing-packaging-technology.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-					<td>
-						<a href="#" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Production Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/production.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-					<td>
-						<a href="http://mu.ac.in/Product.%20engg.iii-iv%20rev.%20cour.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-				</tr>
-				
 			</table>
 		</div>
 </div>
@@ -326,62 +246,9 @@ if(!isset($_SESSION['user'])){
 						REVISED 2007
 					</td>
 				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Automobile Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/MU_R2012/auto.pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-					<td>
-						<a href="http://mu.ac.in/T.Y.%20Automobile%20Sem.%20V%20&%20VI%20Rev..pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Bio-Medical Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/MU_R2012/biomed.pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-					<td>
-						<a href="http://mu.ac.in/Bio-Medical%20Engg.%20v-vi%20rev.cor.pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Bio-Technology Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/MU_R2012/biotech.pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-					<td>
-						<a href="#" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Chemical Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/MU_R2012/chem.pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/mu-chemical-syllabus-sem5.pdf" style="color: blue; font-size: 12px;">Sem 5</a>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/mu-chemical-syllabus-sem6.pdf" style="color: blue; font-size: 12px;">Sem 6</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Civil Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/MU_R2012/civil.pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/Civil%20Sem%20V-VI.pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-				</tr>
+
+			
+
 				<tr>
 					<td style="font-size: 12px;">
 						<b>Computer Engineering</b>
@@ -453,40 +320,8 @@ if(!isset($_SESSION['user'])){
 						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/IT%20Sem%20VI.pdf" style="color: blue; font-size: 12px;">Sem 6</a>
 					</td>
 				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Mechanical Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/MU_R2012/mech.pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/mech_sem5.pdf" style="color: blue; font-size: 12px;">Sem 5</a>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/mech_sem6.pdf" style="color: blue; font-size: 12px;">Sem 6</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Printing & Packaging Technology</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/MU_R2012/PPT.pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-					<td>
-						<a href="#" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Production Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/MU_R2012/prod.pdf" style="color: blue; font-size: 12px;">Sem 5 & Sem 6</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/T.E/prod_sem6.pdf" style="color: blue; font-size: 12px;">Sem 6</a>
-					</td>
-				</tr>
+			
+				
 				
 			</table>
 		</div>
@@ -507,61 +342,8 @@ if(!isset($_SESSION['user'])){
 						REVISED 2007
 					</td>
 				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Automobile Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/B.E/MU_R2012/auto.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-					<td>
-						<a href="http://mu.ac.in/Auto.Mobile%20engg.vii-viii%20rev..pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Bio-Medical Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/B.E/MU_R2012/biomed.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/B.E/biomed.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Bio-Technology Engineering</b>
-					</td>
-					<td>
-						<a href="#" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-					<td>
-						<a href="http://mu.ac.in/B.E.%20Bio-Tachnology.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Chemical Engineering</b>
-					</td>
-					<td>
-						<a href="#" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/B.E/chemical.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Civil Engineering</b>
-					</td>
-					<td>
-						<a href="#" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/B.E/civil.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-				</tr>
+				
+	
 				<tr>
 					<td style="font-size: 12px;">
 						<b>Computer Engineering</b>
@@ -628,39 +410,9 @@ if(!isset($_SESSION['user'])){
 						<a href="http://www.stupidsid.com/Syllabus/Engineering/B.E/it.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
 					</td>
 				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Mechanical Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/B.E/MU_R2012/mech.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/B.E/mechanical.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Printing & Packaging Technology</b>
-					</td>
-					<td>
-						<a href="#" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-					<td>
-						<a href="#" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Production Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/B.E/MU_R2012/prod.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/B.E/prod.pdf" style="color: blue; font-size: 12px;">Sem 7 & Sem 8</a>
-					</td>
-				</tr>
+	
+
+		
 				
 			</table>
 		</div>
