@@ -74,42 +74,19 @@ if(!isset($_SESSION['user'])){
 <div id="down " style="background-color:white; color:black; padding:10px;margin-top:20px; width: 1295px; height:auto">
 	<p ><font size='6px' color='#2266FF'><b>First Year (FE) Question Papers - Semester 1:<b></font></p><br>
 	<p ><font size='5px' color='green'><b>ENGINEERING MECHANICS<b></font></p><hr>
-		<p ><font size='4px' color='black'><b>SYLLABUS SCHEME: R2012<b></font></p>
 		<table>
 			<tr>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2014</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2013</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2013</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2012</a></th>
+				<th><a href="#" style="color: blue; text-decoration: none"> May 2017</a></th>
+				<th><a href="#" style="color: blue; text-decoration: none"> December 2016</a></th>
+				<th><a href="#" style="color: blue; text-decoration: none"> May 2016</a></th>
+				<th><a href="#" style="color: blue; text-decoration: none"> December 2015</a></th>
+				<th><a href="#" style="color: blue; text-decoration: none"> May 2015</a></th>
+				<th><a href="#" style="color: blue; text-decoration: none"> December 2014</a></th>
 			</tr>
 		</table>
 
-		<p ><font size='4px' color='black'><b>SYLLABUS SCHEME: R2007<b></font></p>
-		<table>
-			<tr>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2012</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2011</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2011</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2010</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2010</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2009</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2009</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2008</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2008</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2007</a></th>
-			</tr>
-		</table>
+		
 
-		<p ><font size='4px' color='black'><b>SYLLABUS SCHEME: R2002<b></font></p>		
-		<table>
-			<tr>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2006</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2005</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2004</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2004</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2003</a></th>
-			</tr>
-		</table>
 	    <br><br>
 		
 	<p ><font size='5px' color='green'><b>BASIC ELECTRICAL & ELECTRONICS ENGG<b></font></p><hr>
