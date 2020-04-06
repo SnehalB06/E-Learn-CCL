@@ -157,17 +157,6 @@ if(!isset($_SESSION['user'])){
 				</tr>
 				<tr>
 					<td style="font-size: 12px;">
-						<b>Automobile Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/automobile.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-					<td>
-						<a href="http://mu.ac.in/Auto.%20Engg.iii-iv%20rev.%20cour..pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-size: 12px;">
 						<b>Bio-Medical Engineering</b>
 					</td>
 					<td>
