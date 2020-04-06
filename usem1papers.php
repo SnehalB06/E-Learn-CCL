@@ -76,12 +76,12 @@ if(!isset($_SESSION['user'])){
 	<p ><font size='5px' color='green'><b>ENGINEERING MECHANICS<b></font></p><hr>
 		<table>
 			<tr>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2017</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2016</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2016</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2015</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> May 2015</a></th>
-				<th><a href="#" style="color: blue; text-decoration: none"> December 2014</a></th>
+				<th><a href="ebooks/fe/sem1/EM_M17.pdf" style="color: blue; text-decoration: none"> May 2017</a></th>
+				<th><a href="ebooks/fe/sem1/EM_DEC16.pdf" style="color: blue; text-decoration: none"> December 2016</a></th>
+				<th><a href="ebooks/fe/sem1/EM_M16.pdf" style="color: blue; text-decoration: none"> May 2016</a></th>
+				<th><a href="ebooks/fe/sem1/EM_DEC15.pdf" style="color: blue; text-decoration: none"> December 2015</a></th>
+				<th><a href="ebooks/fe/sem1/EM_M15.pdf" style="color: blue; text-decoration: none"> May 2015</a></th>
+				<th><a href="ebooks/fe/sem1/EM_DEC14.pdf" style="color: blue; text-decoration: none"> December 2014</a></th>
 			</tr>
 		</table>
 
