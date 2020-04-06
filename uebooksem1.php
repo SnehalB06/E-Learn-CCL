@@ -76,7 +76,7 @@ $usernm = $_SESSION['name'];
 </div>
 
 <div id="down " style="background-color:white; color:black; padding:10px;margin-top:20px; width: 1295px; height:auto">
-	<p ><font size='6px' color='#2266FF'><b>First Year (FE) SEM 1 BOOKS:<b></font></a>
+	<p ><font size='6px' color='#2266FF'><b>First Year (FE) SEM 1 BOOKS:<b></font></p>
 		
 		<a href='ebooks/BEE.pdf'><font size='5px' color='green'><b>BASIC ELECTRICAL & ELECTRONICS ENGG<b></font></a><hr>
 		<a  href='ebooks/Physics.pdf'><font size='5px' color='green'><b>APPLIED MATHEMATICS 1<b></font></a><hr>
