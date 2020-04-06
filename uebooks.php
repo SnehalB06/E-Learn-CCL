@@ -74,8 +74,8 @@ if(!isset($_SESSION['user'])){
 
 <div id="down " style="background-color:white; color:black; padding:10px;margin-top:20px; width: 1295px; height:auto">
 	<p ><font size='6px' color='#2266FF'><b>First Year: Semester 1 and 2<b></font></p>
-	<li><a href="uebooksem1.html" style="color: black; text-decoration: none">FE Semester 1 (All Branches)</a></li>
-		<li><a href="uebooksem2.html" style="color: black; text-decoration: none">FE Semester 2 (All Branches)</a></li>
+	<li><a href="uebooksem1.php" style="color: black; text-decoration: none">FE Semester 1 (All Branches)</a></li>
+		<li><a href="uebooksem2.php" style="color: black; text-decoration: none">FE Semester 2 (All Branches)</a></li>
 </div>
 
 <div id="down " style="background-color:white; color:black; padding:10px;margin-top:20px; width: 1295px; height:auto">
