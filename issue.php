@@ -40,9 +40,9 @@ $usernm=$_SESSION['user'];
   </li>
   <li><a href="#">MY ACTION</a>
     <ul>
-      <li><a href="books.php">View Books</a></li>
+      <li><a href="books.php">View Library Books</a></li>
       <li><a href="issue.php">My Issue Status</a></li>
-      
+      <li><a href="dbookstry.php">Download E-Books</a></li>
     </ul>
   </li>
   <li><a href="#">STUDY RESOURCES</a>
