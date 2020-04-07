@@ -224,10 +224,10 @@ if(!isset($_SESSION['user'])){
 						COURSE
 					</td>
 					<td >
-						REVISED 2012
+						REVISED 2016
 					</td>
 					<td>
-						REVISED 2007
+						REVISED 2012
 					</td>
 				</tr>
 
@@ -320,10 +320,10 @@ if(!isset($_SESSION['user'])){
 						COURSE
 					</td>
 					<td >
-						REVISED 2012
+						REVISED 2016
 					</td>
 					<td>
-						REVISED 2007
+						REVISED 2012
 					</td>
 				</tr>
 				
