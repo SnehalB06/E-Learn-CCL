@@ -72,8 +72,7 @@ if(!isset($_SESSION['user'])){
 
 <div id="down " style="background-color:white; color:black; padding:10px;margin-top:20px; width: 1295px; height:160px">
 	<p ><font size='6px' color='#2266FF'><b>FIRST YEAR ENGINEERING<b></font></p>
-	<li><a href="http://www.stupidsid.com/Syllabus/Engineering/F.E/FE%20Sem%20I.pdf" style="color: black; text-decoration: none">First Year Engineering (FE) Semester 1</a></li>
-		<li><a href="http://www.stupidsid.com/Syllabus/Engineering/F.E/FE%20Sem%20II.pdf" style="color: black; text-decoration: none">First Year Engineering (FE) Semester 2</a></li>
+	<li><a href="ebooks/fe/sem1/FE(REV-2019)-Syllabus (1).pdf" style="color: black; text-decoration: none">First Year Engineering (FE) Semester 1 and 2</a></li>
 </div>
 
 <<div style="background-color:white; color:black; padding:20px;margin-left:0px;margin-top:0px; width:605px; height:900px">
@@ -149,46 +148,34 @@ if(!isset($_SESSION['user'])){
 						COURSE
 					</td>
 					<td >
-						REVISED 2012
+						REVISED 2016
 					</td>
 					<td>
-						REVISED 2007
+						REVISED 2012
 					</td>
 				</tr>
+				
 				<tr>
 					<td style="font-size: 12px;">
 						<b>Computer Engineering</b>
 					</td>
 					<td>
+						<a href="ebooks/syllabus/SE/SE-Comps_CBCGS_Syllabus.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
+					</td>
+					<td>
 						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/Computer.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
 					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/Comp%20Sem%20III.pdf" style="color: blue; font-size: 12px;">Sem 3</a>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/Comp%20Sem%20IV.pdf" style="color: blue; font-size: 12px;">Sem 4</a>
-					</td>
 				</tr>
-				<tr>
-					<td style="font-size: 12px;">
-						<b>Electrical Engineering</b>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/electrical.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
-					</td>
-					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/Electrical%20Sem%20III.pdf" style="color: blue; font-size: 12px;">Sem 3</a>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/Electrical%20Sem%20IV.pdf" style="color: blue; font-size: 12px;">Sem 4</a>
-					</td>
-				</tr>
+				
 				<tr>
 					<td style="font-size: 12px;">
 						<b>Electronics Engineering</b>
 					</td>
 					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/Electronics%20Engg.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
+						<a href="ebooks/syllabus/SE/SE-ETRX_CBCGS_Syllabus.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
 					</td>
 					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/Elex%20Sem%20III.pdf" style="color: blue; font-size: 12px;">Sem 3</a>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/Elex%20Sem%20IV.pdf" style="color: blue; font-size: 12px;">Sem 4</a>
+                                                <a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/Electronics%20Engg.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
 					</td>
 				</tr>
 				<tr>
@@ -196,11 +183,10 @@ if(!isset($_SESSION['user'])){
 						<b>Elec & TelComm Engineering</b>
 					</td>
 					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/EXTC.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
+						<a href="ebooks/syllabus/SE/SE-EXTC_CBCGS_Syllabus.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
 					</td>
 					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/EXTC%20Sem%20III.pdf" style="color: blue; font-size: 12px;">Sem 3</a>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/EXTC%20Sem%20IV.pdf" style="color: blue; font-size: 12px;">Sem 4</a>
+                                                    <a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/EXTC.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
 					</td>
 				</tr>
 				<tr>
@@ -208,11 +194,10 @@ if(!isset($_SESSION['user'])){
 						<b>Instrumentation Engineering</b>
 					</td>
 					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/instrumentation.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
+						<a href="ebooks/syllabus/SE/SE-Instrumentation_CBCGS_Syllabus.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
 					</td>
 					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/instru_sem3.pdf" style="color: blue; font-size: 12px;">Sem 3</a>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/instru_sem4.pdf" style="color: blue; font-size: 12px;">Sem 4</a>
+                                               <a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/instrumentation.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
 					</td>
 				</tr>
 				<tr>
@@ -220,11 +205,10 @@ if(!isset($_SESSION['user'])){
 						<b>Information Technology</b>
 					</td>
 					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/IT.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
+						<a href="ebooks/syllabus/SE/SE to BE-IT_CBCGS_Syllabus.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
 					</td>
 					<td>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/IT%20Sem%20III.pdf" style="color: blue; font-size: 12px;">Sem 3</a>
-						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/IT%20Sem%20IV.pdf" style="color: blue; font-size: 12px;">Sem 4</a>
+						<a href="http://www.stupidsid.com/Syllabus/Engineering/S.E/MU_R2012/IT.pdf" style="color: blue; font-size: 12px;">Sem 3 & Sem 4</a>
 					</td>
 				</tr>
 			</table>
