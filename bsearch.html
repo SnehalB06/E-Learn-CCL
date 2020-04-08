@@ -1,3 +1,13 @@
+
+  
+<?php
+session_start();
+if(!isset($_SESSION['user'])){
+ header("location:userlogin.php?problem = not logged in");
+ exit();
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,11 +37,13 @@ $usernm = $_SESSION['name'];
   </li>
   <li><a href="#">MY ACTION</a>
     <ul>
-      <li><a href="books.php">View Books</a></li>
+      <li><a href="books.php">View Library Books</a></li>
       <li><a href="issue.php">My Issue Status</a></li>
+      <li><a href="dbookstry.php">Download E-Books</a></li>
       
     </ul>
   </li>
+	   
   <li><a href="#">STUDY RESOURCES</a>
     <ul>
       <li><a href="usyllabus.php">Syllabus</a></li>
@@ -59,23 +71,51 @@ $usernm = $_SESSION['name'];
   </div>
 </div>
 <hr>
+<!-- Javascript -->
 
-<div style="background-color:white; color:black; padding:20px;margin-left:175px;margin-top:20px; width:900px; height: 515px;border-radius: 20px 20px 20px 20px;">
+		<div id="examples_outer">
 
-<p style="color:black;text-align:center;font-size: 40px"><b>SEARCH BOOKS HERE</b></p>
+			<div id="slider_container_2">
 
-<div style="margin-top: 100px;margin-left: 200px;">
-<form method="post" action="search.php" method="post">
-    <div class="rows">
-        <label class="col-1" for="Name" style="font-size: Large;">Book Name:</label>
-        <input class="col-8" type="text" name="Name">
-     <input class="col-2" type="submit" value="Search Book" style="background-color: #24f1ac;
-    border-radius: 20px;
-    width: 300px;
-    height: 50px;
-    font-size: large;
-    ">
-    </div>
-   
-</form>
-</div>
+				<div id="SliderName_2" class="SliderName_2">
+					<img src="img/college.jpg" width="700" height="450" alt="Demo2 first" title="Demo2 first" usemap="#img1map" />
+					<map name="img1map">
+						<area href="#img1map-area1" shape="rect" coords="100,100,200,200" />
+						<area href="#img1map-area2" shape="rect" coords="300,100,400,200" />
+					</map>
+					<div class="SliderName_2Description"></div>
+					<img src="img/infra.jpg" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
+					<div class="SliderName_2Description"></div>
+					<img src="img/lib1.jpg" width="700" height="450" alt="Demo2 third" title="Demo2 third" />
+					<div class="SliderName_2Description"></div>
+					<img src="img/lib2.jpg" width="700" height="450" alt="Demo2 fourth" title="Demo2 fourth" />
+					<div class="SliderName_2Description"></div>
+				</div>
+				<div class="c"></div>
+				<div id="SliderNameNavigation_2"></div>
+				<div class="c"></div>
+
+				<script type="text/javascript">
+					effectsDemo2 = 'rain,stairs,fade';
+					var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', width: 700, height: 450, effects: effectsDemo2,
+						display: {
+							autoplay: 3000,
+							loading: {background: '#000000', opacity: 0.5, image: 'img/loading.gif'},
+							buttons: {hide: true, opacity: 1, prev: {className: 'SliderNamePrev_2', label: ''}, next: {className: 'SliderNameNext_2', label: ''}},
+							description: {hide: true, background: '#000000', opacity: 0.4, height: 50, position: 'bottom'},
+							navigation: {container: 'SliderNameNavigation_2', label: '<img src="img/clear.gif" />'}
+						}
+					});
+				</script>
+
+				<div class="c"></div>
+			</div>
+			<div class="c"></div>
+		</div>
+		<div class="c"></div>
+<!-- Javascript -->
+ 
+ <div class="up-right" style="background-color:#114466; color:black; padding:20px;margin-left:770px;margin-top:20px; width:500px;">
+
+			<!--<img src="cssmain\vit.jpg" alt="VIT" style="width:500px;height:150px;border:0">-->
+			<center><p ><font size="6px"><b>WELCOME, <?php echo $usernm;  ?></b></font></p><center>
