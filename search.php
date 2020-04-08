@@ -75,32 +75,93 @@ $name = $_POST['Name'];
 </div>
 <hr> 
 	
-<div style="background-color:white; color:black; padding:20px;margin-left:175px;margin-top:20px; width:900px; height: 300px;border-radius: 20px 20px 20px 20px;">
-	<?php
+<div style="background-color:white; color:black; padding:20px;margin-left:175px;margin-top:20px; width:900px; height: 500px;border-radius: 20px 20px 20px 20px;">
+<?php
 
-$check_user = "SELECT * 
+$check_book = "SELECT * 
 FROM  `book` 
-WHERE  `bname` LIKE  '$name'";
-$result =mysqli_query($connect, $check_user);
-if ((mysqli_num_rows($result)== 0)){ 
+WHERE  `bname` LIKE '$name%' limit 2";
+$result =mysqli_query($connect, $check_book);
+
+if ((mysqli_num_rows($result)== 0)){
+
+?>
+<center>
+
+
+<?php
 echo "<h4><center>No Books Found</center></h4>";
 }
 else{
+echo "<center><h4>Book Found at Library </h4></center>";
 
 	if(mysqli_num_rows($result) >= 0 ){ 
-while($row = mysqli_fetch_array($result))
+while($row = mysqli_fetch_array($result)){ 
+
+?>
+
+<center>
+<div class="book" style="columns: 400px 1">
+	<label for="Bname">Book Name:<?php echo $row['bname']; ?></label>
+	<br>
+	<label for="Bname">Publication: <?php echo $row['pub']; ?></label><br>
+	<label for="Bname">Author: <?php echo $row['author']; ?></label>
+	<br>
+	<label for="Bname">Branch: <?php echo $row['bran']; ?></label>
+	
+</div>
+
+<hr>
+<?php
+}
+
+}
+
+else{
+echo "<script>alert('Books Not Found!')</script>";
+}
+}
+
+	?>
+<?php
+
+$check_uploads = "SELECT  *
+FROM  `tbl_uploads` 
+WHERE  `file` LIKE  '$name%'";
+$result_upload =mysqli_query($connect, $check_uploads);
+
+
+if ((mysqli_num_rows($result_upload)== 0)){ 
+echo "<h4><center>No Books Found</center></h4>";
+}
+else{
+echo "<center><h4>E-Book Found </h4></center>";
+
+	if(mysqli_num_rows($result_upload) >= 0 ){ 
+while($row1 = mysqli_fetch_array($result_upload))
 							{ 	
 
-echo $row['bid'],$row['bname'];
-    
+?>
+
+<center>
+<div class="book" style="columns: 400px 1">
+	<label for="Bname">Book Name:<?php echo $row1['file']; ?></label>
+	<br>
+	
+</div>
+
+<hr>
+<?php
 							}
 						}
 
 else{
-echo "<script>alert('Email or password is incorrect!')</script>";
+echo "<script>alert('Books Not Found!')</script>";
 }
 }
 
 
 	?>
+	</center>
+
 </div>
