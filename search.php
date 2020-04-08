@@ -15,7 +15,6 @@ $name = $_POST['Name'];
 ?>
 
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -92,10 +91,10 @@ if ((mysqli_num_rows($result)== 0)){
 
 
 <?php
-echo "<h4 style="color: green;"><center>No Books Found</center></h4>";
+echo "<h4><center>No Books Found</center></h4>";
 }
 else{
-echo "<center><h4 style="color: green;">Book Found at Library </h4></center>";
+echo "<center><h4>Book Found at Library </h4></center>";
 
 	if(mysqli_num_rows($result) >= 0 ){ 
 while($row = mysqli_fetch_array($result)){ 
@@ -123,7 +122,7 @@ echo "<script>alert('Books Not Found!')</script>";
 }
 
 	?>
-<hr>
+	<hr>
 <?php
 
 $check_uploads = "SELECT  *
@@ -133,10 +132,10 @@ $result_upload =mysqli_query($connect, $check_uploads);
 
 
 if ((mysqli_num_rows($result_upload)== 0)){ 
-echo "<h4 style="color: green;"><center>No Books Found</center></h4>";
+echo "<h4><center>No Books Found</center></h4>";
 }
 else{
-echo "<center><h4 style="color: green;">E-Book Found </h4></center>";
+echo "<center><h4>E-Book Found </h4></center>";
 
 	if(mysqli_num_rows($result_upload) >= 0 ){ 
 while($row1 = mysqli_fetch_array($result_upload))
@@ -150,7 +149,6 @@ while($row1 = mysqli_fetch_array($result_upload))
 	<br>
 	
 </div>
-
 
 <?php
 							}
@@ -166,4 +164,3 @@ echo "<script>alert('Books Not Found!')</script>";
 	</center>
 
 </div>
-<hr>
