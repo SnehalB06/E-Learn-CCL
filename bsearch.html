@@ -1,13 +1,3 @@
-
-  
-<?php
-session_start();
-if(!isset($_SESSION['user'])){
- header("location:userlogin.php?problem = not logged in");
- exit();
-}
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,9 +12,6 @@ if(!isset($_SESSION['user'])){
 
 <body>
 <div id="wrapper">
-<?php
-$usernm = $_SESSION['name'];
-?>
 <div id="header">
 <br>
 <a href="userhomepage.php"><img src="images\sitelogo.png" alt="sitelogo"
@@ -92,4 +79,3 @@ $usernm = $_SESSION['name'];
    
 </form>
 </div>
-
