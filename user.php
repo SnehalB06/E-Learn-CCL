@@ -80,7 +80,6 @@ $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error 
 		<th>Roll no</th>
 		<th>User Password</th>
 		<th>Gender</th>
-		<th>Delete User</th>
    </tr>
    <tr>
  <?php
@@ -99,7 +98,6 @@ $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error 
   <td><center><?php echo $roll ;?></center></td>
   <td><center><?php echo $user_pass; ?></center></td>
   <td><center><?php echo $gen; ?></center></td>
-  <td><center><a href='Delete.php?del=<?php echo $user_id;?>' style="color: blue">Delete</center></td>
  </tr>
  <?php } ?>
  </table>
