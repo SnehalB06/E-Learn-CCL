@@ -99,7 +99,7 @@ echo "<center><h4>Book Found at Library </h4></center>";
 while($row = mysqli_fetch_array($result)){ 
 
 ?>
-<hr>
+<hr style="color:#244bf1;">
 <center>
 <div class="book" style="columns: 400px 1">
 	<label for="Bname">Book Name:<?php echo $row['bname']; ?></label>
@@ -142,8 +142,10 @@ while($row1 = mysqli_fetch_array($result_upload))
 							{ 	
 
 ?>
+<hr style="color:#244bf1;">
 
 <center>
+	
 <div class="book" style="columns: 400px 1">
 	<label for="Bname">Book Name:<?php echo $row1['file']; ?></label>
 	<br>
