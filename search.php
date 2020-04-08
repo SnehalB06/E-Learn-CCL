@@ -7,9 +7,8 @@ $dbname= 'a3vhvpnccog050y7';
 
 $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error Connecting");
 
-if(isset($_POST['submit'])){
     $name = $_POST['name'];
-echo $name;}
+echo $name;
 
     
 
