@@ -110,8 +110,6 @@ while($row = mysqli_fetch_array($result)){
 	<label for="Bname">Branch: <?php echo $row['bran']; ?></label>
 	
 </div>
-
-<hr>
 <?php
 }
 
