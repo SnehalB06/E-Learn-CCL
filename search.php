@@ -80,7 +80,7 @@ $name = $_POST['Name'];
 
 $check_book = "SELECT * 
 FROM  `book` 
-WHERE  `bname` LIKE '%$name%' limit 2";
+WHERE  `bname` LIKE '$name%' limit 2";
 $result =mysqli_query($connect, $check_book);
 
 if ((mysqli_num_rows($result)== 0)){
@@ -93,13 +93,13 @@ if ((mysqli_num_rows($result)== 0)){
 echo "<h4><center>No Books Found</center></h4>";
 }
 else{
-echo "<center><h4>Book Found at Library </h4></center><hr>";
+echo "<center><h4>Book Found at Library </h4></center>";
 
 	if(mysqli_num_rows($result) >= 0 ){ 
 while($row = mysqli_fetch_array($result)){ 
 
 ?>
-
+<hr>
 <center>
 <div class="book" style="columns: 400px 1">
 	<label for="Bname">Book Name:<?php echo $row['bname']; ?></label>
