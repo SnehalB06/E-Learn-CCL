@@ -149,8 +149,6 @@ while($row1 = mysqli_fetch_array($result_upload))
 	<br>
 	
 </div>
-
-<hr>
 <?php
 							}
 						}
