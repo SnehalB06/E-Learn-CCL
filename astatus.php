@@ -6,10 +6,10 @@ if(!isset($_SESSION['user2'])){
 }
 ?>
 <?php
-$hostname= 'zy4wtsaw3sjejnud.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-$username= 'jm5yt2mqq91oohli';
-$password= 'nijmbv3wx5tx9yto';
-$dbname= 'a3vhvpnccog050y7';
+$hostname= 'yjo6uubt3u5c16az.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$username= 'xz89a2tmtgd0ekjo';
+$password= 'a0lgq3ti44bboju6';
+$dbname= 'dvqr93c2ny1887yw';
 
 $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error Connecting");
 ?>
@@ -87,8 +87,8 @@ $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error 
   <?php
    $query = mysqli_query($connect,"SELECT * FROM  `issue` WHERE  `status` NOT LIKE  'YES' ");
   while(($row2=mysqli_fetch_array($query))){
-   $issueid=$row2[0];
-   $bookid=$row2[2];
+   $issueid=$row2[5];
+   $bookid=$row2[0];
    $rollno=$row2[1];
    $query2=mysqli_query($connect,"SELECT * FROM  `book` WHERE  `bid` = $bookid ");
  while(($row=mysqli_fetch_array($query2)))

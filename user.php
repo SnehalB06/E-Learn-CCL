@@ -6,10 +6,10 @@ if(!isset($_SESSION['user2'])){
 }
 ?>
 <?php
-$hostname= 'zy4wtsaw3sjejnud.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-$username= 'jm5yt2mqq91oohli';
-$password= 'nijmbv3wx5tx9yto';
-$dbname= 'a3vhvpnccog050y7';
+$hostname= 'yjo6uubt3u5c16az.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$username= 'xz89a2tmtgd0ekjo';
+$password= 'a0lgq3ti44bboju6';
+$dbname= 'dvqr93c2ny1887yw';
 
 $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error Connecting");
 ?>
@@ -75,7 +75,7 @@ $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error 
 
 <table width='800' align='center' border='5'>
    <tr bgcolor='brown'>
-		<th>User ID</th>
+		<!--<th>User ID</th>-->
 		<th>User Name</th>
 		<th>Roll no</th>
 		<th>User Password</th>
@@ -87,13 +87,12 @@ $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error 
    $run = mysqli_query($connect,$query);
  while(($row=mysqli_fetch_array($run)))
  {
-	$user_id = $row[0];
-	$user_name = $row[1];
-	$roll=$row[2];
-	$user_pass = $row[3];
-	$gen = $row[4];
+	#$user_id = $row[0];
+	$user_name = $row[0];
+	$roll=$row[1];
+	$user_pass = $row[2];
+	$gen = $row[3];
  ?>
-  <td><?php echo $user_id ;?></td>
   <td><?php echo $user_name; ?></td>
   <td><center><?php echo $roll ;?></center></td>
   <td><center><?php echo $user_pass; ?></center></td>

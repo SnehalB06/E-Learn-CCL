@@ -6,10 +6,10 @@ if(!isset($_SESSION['user2'])){
 }
 ?>
 <?php
-$hostname= 'zy4wtsaw3sjejnud.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-$username= 'jm5yt2mqq91oohli';
-$password= 'nijmbv3wx5tx9yto';
-$dbname= 'a3vhvpnccog050y7';
+$hostname= 'yjo6uubt3u5c16az.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$username= 'xz89a2tmtgd0ekjo';
+$password= 'a0lgq3ti44bboju6';
+$dbname= 'dvqr93c2ny1887yw';
 
 $connect = mysqli_connect($hostname,$username,$password,$dbname) or die ("Error Connecting");
 ?>
